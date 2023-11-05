@@ -1,0 +1,94 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Lab03QuizNania2._0</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BrandS.jpeg" />
+    <None Remove="Cars - Copy.jpg" />
+    <None Remove="Cars.jpg" />
+    <None Remove="CustomQuiz.jpg" />
+    <None Remove="EditQuiz.jpg" />
+    <None Remove="Elmo.gif" />
+    <None Remove="HipHop.jpg" />
+    <None Remove="QuizImages\BrandS.jpeg" />
+    <None Remove="QuizImages\Cars.jpg" />
+    <None Remove="QuizImages\CustomQuiz.jpg" />
+    <None Remove="QuizImages\EditQuiz.jpg" />
+    <None Remove="QuizImages\Elmo.gif" />
+    <None Remove="QuizImages\HipHop.jpg" />
+    <None Remove="QuizImages\QuizNania.jpg" />
+    <None Remove="QuizImages\Sports.jpg" />
+    <None Remove="QuizNania.jpg" />
+    <None Remove="Sports.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BrandS.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Cars - Copy.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="CustomQuiz.jpg" />
+    <Resource Include="EditQuiz.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Elmo.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="HipHop.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Cars.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="QuizImages\BrandS.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\CustomQuiz.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\EditQuiz.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Elmo.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\HipHop.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\QuizNania.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Sports.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizNania.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sports.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Cars.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
